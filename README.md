@@ -1,5 +1,5 @@
 # DQN-Navigation
-##The goal of this project is to collect all yellow bananas and ignore blue bananas.
+## The goal of this project is to collect all yellow bananas and ignore blue bananas.
 
 
 # Overview
