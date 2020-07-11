@@ -42,7 +42,7 @@ The main file Navigation.ipynb utilizes 2 important files
 - 1) model.py: Contains the neural network in pytorch. I used the MLP with 2 hildden layers each with 128 hidden units with relu activation. These networks use Adam optimizer and a learning rate of 5e^-4
 - 2) dqn_agent.py: This contains the training of the agent. Firstly the code initializes the replay buffer then initializes 2 (target and local) instances of NN described by model.py. Then the agent takes a step and stores it in the replay buffer. I set the size to 4 so when the target network updates every 4 steps with the local network. I used the the epsilon-greed policy to make a selection of action
 
-- here are the parameters used:
+- here are the key parameters used:
 ```  
 BUFFER_SIZE = int(1e5)  # replay buffer size
 BATCH_SIZE = 64         # minibatch size 
