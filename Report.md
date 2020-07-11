@@ -55,7 +55,16 @@ UPDATE_EVERY = 4        # how often to update the network
 # Results:
 
 The results meet the basic criterion as shown in the notebook. The agent is able to recieve an average reward of +13 in less than 500 episodes.
+output from notebook
 
+```
+Episode 100	Average Score: 1.12
+Episode 200	Average Score: 4.02
+Episode 300	Average Score: 9.18
+Episode 400	Average Score: 11.38
+Episode 488	Average Score: 13.06
+Environment solved in 388 episodes!	Average Score: 13.06
+```
 
 # Potential improvements:
 
