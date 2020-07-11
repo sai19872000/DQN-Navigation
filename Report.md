@@ -54,7 +54,7 @@ UPDATE_EVERY = 4        # how often to update the network
 
 # Results:
 
-The results meet the basic criterion as shown in the notebook. The agent is able to recieve an average reward of +13 in less than 300 episodes.
+The results meet the basic criterion as shown in the notebook. The agent is able to recieve an average reward of +13 in less than 500 episodes.
 
 
 # Potential improvements:
